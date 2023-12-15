@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+   font-family: Arial, Helvetica, sans-serif;
+   color: white;
+   overflow: hidden;
+}
+#hero_img{
+    width: 100%;
+    height: 100vh;
+    background-image:radial-gradient(rgba(0,0,0,0.7), rgba(0,0,0,1)),url(images/netflix_bckgd_img.jpg);
+    background-size: cover;
+}
+#logo{
+    height: 6rem;
+    width: 15rem;
+    background-image: url(images/Netflix_Logo.png);
+    background-size: cover;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 20px;
+}
+#sign_in{
+    width: 4rem;
+    height: 1.2rem;
+    background-color: red;
+    font-size: 14px;
+    font-weight: 550;
+    border-radius: 4px;
+    text-align: center; 
+    padding: 8px 0px 8px 0px; 
+    margin:0px 30px 10px 0px;  
+}
+#sign_in a{
+    text-decoration: none; 
+    color: white;
+}
+#main{
+    height: 40rem;
+    width: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5rem;
+    padding-left:0px;
+}
+#cont1 h1{
+    font-size: 4rem;
+    margin-bottom: 8px;
+}
+#cont1 p{
+    font-size: 1rem;
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+#cont1 h3{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #ffffffb3;
+}
+#cont2{
+    padding-top: 20px;
+}
+#cont2 input{
+    height: 3rem;
+    width:20rem ;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    margin-right: 2px;
+    border: 1px solid #ffffffb3 ;
+    font-size: 1rem;
+    font-weight: 600;
+    padding-left: 20px;
+}
+#cont2 button{
+    height: 3.15rem;
+    width: 12rem;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+}
